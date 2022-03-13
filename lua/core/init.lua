@@ -1,0 +1,5 @@
+require("core.config")
+require("core.plugins")
+require("core.autostart")
+require("core.plugins-config")
+require("core.mappings")
