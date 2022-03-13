@@ -27,4 +27,6 @@ git clone https://github.com/FesaGemini/AtLas-vim.git ~/.config/nvim
 nvim +'hi NormalFloat guibg=#1e222a' +PackerSync
 ```
 
+Activate colorscheme in nvim/lua/core/config.lua
+
 5. You're good to go ( install script coming soon ) 
