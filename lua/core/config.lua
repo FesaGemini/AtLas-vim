@@ -47,5 +47,7 @@ catch /^Vim\%((\a\+)\)\=:E185/
 endtry
 ]]
 
+vmd[[ hi EndOfBuffer guifg=bg ]]
+
 -- MISC
 glob.mapleader = " "
