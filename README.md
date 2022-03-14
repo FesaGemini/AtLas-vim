@@ -9,7 +9,7 @@ Installation instruction :
 Automatic Installation :
 
 ```
-
+curl https://raw.githubusercontent.com/FesaGemini/AtLas-vim/main/lua/core/install/install.sh | bash
 ```
 
 Manual installation : 
