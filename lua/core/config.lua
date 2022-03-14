@@ -38,7 +38,14 @@ vmd[[autocmd CursorHold,CursorHoldI * lua vim.diagnostic.open_float(nil, {focus=
 
 -- Colors
 set.termguicolors = true
--- vmd[[ colorscheme onedark ]]
+vmd [[
+try
+  colorscheme onedark
+catch /^Vim\%((\a\+)\)\=:E185/
+  colorscheme default
+  set background=dark
+endtry
+]]
 
 -- MISC
 glob.mapleader = " "
