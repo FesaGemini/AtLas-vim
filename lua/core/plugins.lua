@@ -43,6 +43,9 @@ return packer.startup({function(use)
 
   -- Presence
   use { "andweeb/presence.nvim" }
+
+  -- Formatting
+  use { "prettier/vim-prettier" }
 end,
 config = { display = { open_fn = require("packer.util").float, } }
 })
