@@ -4,7 +4,7 @@ require('bufferline').setup {
     {
       filetype = "NvimTree",
       text = " ",
-      highlight = "Directory",
+      highlight = "",
       text_align = "left"
     }
   },

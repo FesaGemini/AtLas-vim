@@ -38,6 +38,11 @@ return packer.startup({function(use)
   -- Bar
   use { "nvim-lualine/lualine.nvim" }
 
+  -- Docs
+  use { "FesaGemini/vim-AtLas" }
+
+  -- Presence
+  use { "andweeb/presence.nvim" }
 end,
 config = { display = { open_fn = require("packer.util").float, } }
 })
