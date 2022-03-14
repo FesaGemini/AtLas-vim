@@ -6,6 +6,14 @@ Requirements: Neovim >= 6.0
 
 Installation instruction : 
 
+Automatic Installation :
+
+```
+
+```
+
+Manual installation : 
+
 1. Install Packer.nvim
 ```bash
 git clone --depth 1 https://github.com/wbthomason/packer.nvim\
