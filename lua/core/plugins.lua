@@ -47,6 +47,13 @@ return packer.startup({function(use)
 
   -- Formatting
   use { "prettier/vim-prettier" }
+
+  -- Autoclose Tag
+  use { "alvan/vim-closetag" } 
+  use { "ap/vim-css-color" }
+
+  -- Autoclose Brackets
+  use { "cohama/lexima.vim" }
 end,
 config = { display = { open_fn = require("packer.util").float, } }
 })
